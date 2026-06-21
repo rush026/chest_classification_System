@@ -17,7 +17,7 @@ from PIL import Image
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from schemas import (
+from .schemas import (
     ClinicalData,
     ClinicalPredictionResponse,
     ImagePredictionResponse,
