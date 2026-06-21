@@ -1,10 +1,10 @@
 pandas
-numpy
+numpy==1.26.4
 scikit-learn
 matplotlib
 seaborn
 joblib
-tensorflow
+tensorflow==2.15.0
 fastapi
 uvicorn[standard]
 python-multipart
